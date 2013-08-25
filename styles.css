@@ -1,0 +1,267 @@
+body{
+	font-family:Georgia,serif;
+	font-size:1.4em;
+	line-height:150%;
+
+	color:#333;/* black but not-so-black for good reading */
+	background:#f7f7f6;/* white but not-so-white for googd reaging */
+}
+#wrapper{
+	
+	max-width:960px;
+	position:relative;
+	margin:0 auto;
+	padding-left:5%;
+	padding-right: 5%;	
+}
+
+/* 
+	header 
+*/
+#header{
+	padding: 5% 0 1% 0;
+	color:#333;
+}
+
+#logo-n-stuff{
+		text-align: center;
+		padding-top: 0px;
+		padding-bottom: 30px;
+}
+
+#header h1{
+	font-size:290%;
+	margin:0 0 5px 0;
+	padding:0 0 0 0;
+	line-height: 1;
+}
+
+.site-description{
+	font-style:italic;
+	line-height: 1;
+	font-size:90%;
+	color:#808080;
+}
+
+
+/* navigation */
+#page-nav{
+	border-top:2px solid #dcdcdc;
+	border-bottom: 2px solid #dcdcdc;
+	margin-bottom: 35px;
+	text-align:center;
+}
+
+#page-nav ul {
+	list-style:none;
+	padding-left:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:0;
+	margin-bottom:0;
+}
+#page-nav ul li{
+	float:;
+	display: inline;
+}
+#page-nav li{
+	margin-left:10px;
+	margin-right:10px;
+}
+#page-nav a{
+	color:#333;
+	text-decoration: none;
+	border: none;
+}
+#page-nav a:hover{
+	color:#808080;
+	text-decoration: none;
+	border: none;
+}
+
+
+/*
+	post
+*/
+.post h2{
+	font-size: 180%;
+	margin:10px 0 0 0;
+	padding:10px 0 5px 0;
+	line-height: 130%;
+}
+.post h3{
+	margin:10px 0 0 0;
+	padding:10px 0 10px 0;
+	font-size: 140%;
+	line-height: 130%;
+}
+.post h4{
+	margin:10px 0 0 0;
+	padding:10px 0 10px 0;
+	font-style: italic;
+	font-size:120%;
+}
+.post h5{
+	margin:10px 0 0 0;
+	padding:10px 0 10px 0;
+	font-style: italic;
+}
+.post-stuff{
+	font-size:80%;
+	margin-bottom:15px;
+	color:#808080;
+}
+
+.post-stuff a{
+	color:#333;
+	text-decoration:none;
+	border-bottom:2px solid #808080;
+}
+.post-stuff a:hover{
+	color: #808080;
+	text-decoration: none;
+	border-bottom: 2px solid #808080;
+}
+.post p{
+	padding: 0 0 0 0;
+	margin:0 0 30px 0;
+	text-align: justify;
+	/*text-indent:2em;*/
+}
+.post blockquote{
+	font-style: italic;
+	font-size: 90%;
+	line-height: 1.4;
+	color:#808080;
+	padding:0 0 0 0;
+	margin:35px 20px 35px 30px;
+	max-width:80%;
+}
+.post blockquote:hover{
+	color:#333;
+}
+.post ul{
+	padding:0 0 0 0;
+	margin:35px 20px 35px 30px;
+	font-size:80%;
+	color:#808080;
+}
+.post ul:hover{
+	color:#333;
+}
+.post img{
+	max-width: 100%;
+	max-height: auto;
+}
+.post img a{
+	border: none;
+}
+.post p a{
+	color:#000;
+	text-decoration: none;
+	border-bottom: 1px solid #808080;
+	padding-bottom:2px;
+}
+.post p a:hover{
+	color:#808080;
+	text-decoration: none;
+	border-bottom: 3px solid #808080;
+}
+h1 a,.post h2 a{
+	text-decoration: none;
+	border: none;
+	color: #333;
+}
+h1 a:hover,.post h2 a:hover{
+	text-decoration: none!important;
+	border: none!important;
+	color: #808080;
+}
+.continue{
+	padding:0 0 0 0;
+	margin:10px 0 10px 0;
+	color:#808080;
+	border-bottom:2px solid #808080;
+	text-decoration: none;
+	font-size: 90%;
+}
+.continue:hover{
+	text-decoration: none;
+	border-bottom: 2ps solid #808080;
+	color: #333;
+}
+.continue:hover:after{
+	content: "»";
+	color:#333;
+	font-size:90%;
+	border:none;
+	margin-left:5px;
+}
+
+.pagination a{
+	padding:0 0 0 0;
+	margin:10px 10px 10px 0;
+	color:#808080;
+	border-bottom:2px solid #808080;
+	text-decoration: none;
+	font-size: 90%;
+}
+.pagination a:hover{
+	text-decoration: none;
+	border-bottom: 2ps solid #808080;
+	color: #333;
+}
+
+
+/*
+	foooter
+*/
+#footer{
+	color: #808080;
+	margin:10% 0 15% 0;
+	font-size: 90%;
+}	
+#footer p{
+	margin:0 0 0 0;
+	padding:0 0 5px 0;
+}
+#footer a{
+	color:#333;
+	text-decoration: none;
+	border-bottom: 2px solid #808080;	
+}
+#footer a:hover{
+	color:#a9a9a9;
+	text-decoration: none;
+	border-bottom: 2px solid #a9a9a9;
+}
+
+.centerr{
+	color:#a9a9a9;
+	padding-bottom: 30px;
+	width: 100%;
+	text-align:center;
+}
+
+/*
+	etc
+*/
+*:hover{
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
+}
+a:active{
+	position: relative;
+	top:2px;
+}
+img a{
+	border:none!important;
+}
+textarea{
+	overflow:auto;
+}
+
+
+
