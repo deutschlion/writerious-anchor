@@ -1,6 +1,5 @@
-
 Theme name:    Writerious 
 Description:   A simple theme for Anchor CMS
 Author name:   Stefan Machovec
-Author site:   http://github.com/axf
+Author site:   http://stfn.cz
 License:       http://creativecommons.org/licenses/by-sa/3.0/ 
